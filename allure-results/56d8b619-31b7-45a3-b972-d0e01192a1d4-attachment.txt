@@ -1,0 +1,52 @@
+[32m[INFO]2023.03.01 17:20:40 : 获取首页便签列表
+[32m[INFO]2023.03.01 17:20:40 : url: https://note-api.wps.cn/v3/notesvr/user/1298511639/home/startindex/0/rows/50/notes
+[32m[INFO]2023.03.01 17:20:40 : 上传便签信息主体
+[32m[INFO]2023.03.01 17:20:40 : url: https://note-api.wps.cn/v3/notesvr/set/noteinfo
+[32m[INFO]2023.03.01 17:20:40 : headers: {"Content-Type": "application/json", "x-user-key": "1298511639", "cookie": "wps_sid=V02SJ0aJvoFyTxlJYl36L95naGxkYtE00a5dfa2f004d65b717"}
+[32m[INFO]2023.03.01 17:20:40 : body: {"noteId": "3DUkb7CMAGzgofZPBWLpH0JvIVdxc8K2", "star": 0, "remindTime": 0, "remindType": 0}
+[32m[INFO]2023.03.01 17:20:41 : 上传/更新便签内容
+[32m[INFO]2023.03.01 17:20:41 : url: https://note-api.wps.cn/v3/notesvr/set/notecontent
+[32m[INFO]2023.03.01 17:20:41 : headers: {"Content-Type": "application/json", "x-user-key": "1298511639", "cookie": "wps_sid=V02SJ0aJvoFyTxlJYl36L95naGxkYtE00a5dfa2f004d65b717"}
+[32m[INFO]2023.03.01 17:20:41 : body: {"title": "WZWsi7mvYPwPpkoEGtDKkA==", "summary": "Lu+Q4WSUN4bz21lYcf0ELyeb4atUMU1/4a/RZESeBog=", "body": "+hnQTX1CV6UoBQKumuk0Uh7Jx19D9m26Dq7mSnQzBN8=", "localContentVersion": 1, "noteId": "3DUkb7CMAGzgofZPBWLpH0JvIVdxc8K2", "thumbnail": null, "bodyType": 0}
+[32m[INFO]2023.03.01 17:20:41 : 获取便签内容
+[32m[INFO]2023.03.01 17:20:41 : url: https://note-api.wps.cn/v3/notesvr/get/notebody
+[32m[INFO]2023.03.01 17:20:41 : headers: {"Content-Type": "application/json", "x-user-key": "1298511639", "cookie": "wps_sid=V02SJ0aJvoFyTxlJYl36L95naGxkYtE00a5dfa2f004d65b717"}
+[32m[INFO]2023.03.01 17:20:41 : body: {"noteIds": ["3DUkb7CMAGzgofZPBWLpH0JvIVdxc8K2"]}
+[32m[INFO]2023.03.01 17:20:41 : 删除便签
+[32m[INFO]2023.03.01 17:20:41 : url: https://note-api.wps.cn/v3/notesvr/delete
+[32m[INFO]2023.03.01 17:20:41 : headers: {"Content-Type": "application/json", "x-user-key": "1298511639", "cookie": "wps_sid=V02SJ0aJvoFyTxlJYl36L95naGxkYtE00a5dfa2f004d65b717"}
+[32m[INFO]2023.03.01 17:20:41 : body: {"noteId": "3DUkb7CMAGzgofZPBWLpH0JvIVdxc8K2"}
+[32m[INFO]2023.03.01 17:20:41 : 新增分组
+[32m[INFO]2023.03.01 17:20:41 : url: https://note-api.wps.cn/v3/notesvr/set/notegroup
+[32m[INFO]2023.03.01 17:20:41 : headers: {"Content-Type": "application/json", "x-user-key": "1298511639", "cookie": "wps_sid=V02SJ0aJvoFyTxlJYl36L95naGxkYtE00a5dfa2f004d65b717"}
+[32m[INFO]2023.03.01 17:20:41 : body: {"groupName": "TESTER_GROUP", "groupId": "mowfT9IYP43GqWc5bEdKJF2VB1spZzRD", "isNewGroup": true}
+[32m[INFO]2023.03.01 17:20:42 : 获取分组列表
+[32m[INFO]2023.03.01 17:20:42 : url: https://note-api.wps.cn/v3/notesvr/get/notegroup
+[32m[INFO]2023.03.01 17:20:42 : headers: {"Content-Type": "application/json", "x-user-key": "1298511639", "cookie": "wps_sid=V02SJ0aJvoFyTxlJYl36L95naGxkYtE00a5dfa2f004d65b717"}
+[32m[INFO]2023.03.01 17:20:42 : body: {"lastRequestTime": 0, "excludeInValid": true}
+[32m[INFO]2023.03.01 17:20:43 : 查看分组下便签
+[32m[INFO]2023.03.01 17:20:43 : url: https://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[32m[INFO]2023.03.01 17:20:43 : headers: {"Content-Type": "application/json", "x-user-key": "1298511639", "cookie": "wps_sid=V02SJ0aJvoFyTxlJYl36L95naGxkYtE00a5dfa2f004d65b717"}
+[32m[INFO]2023.03.01 17:20:43 : body: {"rows": 50, "startIndex": 0, "groupId": "mowfT9IYP43GqWc5bEdKJF2VB1spZzRD"}
+[32m[INFO]2023.03.01 17:20:43 : 删除分组
+[32m[INFO]2023.03.01 17:20:43 : url: https://note-api.wps.cn/v3/notesvr/get/notegroup
+[32m[INFO]2023.03.01 17:20:43 : headers: {"Content-Type": "application/json", "x-user-key": "1298511639", "cookie": "wps_sid=V02SJ0aJvoFyTxlJYl36L95naGxkYtE00a5dfa2f004d65b717"}
+[32m[INFO]2023.03.01 17:20:43 : body: {"groupId": "mowfT9IYP43GqWc5bEdKJF2VB1spZzRD"}
+[32m[INFO]2023.03.01 17:20:45 : 查看日历下便签
+[32m[INFO]2023.03.01 17:20:45 : url: https://note-api.wps.cn/v3/notesvr/get/notegroup
+[32m[INFO]2023.03.01 17:20:45 : headers: {"Content-Type": "application/json", "x-user-key": "1298511639", "cookie": "wps_sid=V02SJ0aJvoFyTxlJYl36L95naGxkYtE00a5dfa2f004d65b717"}
+[32m[INFO]2023.03.01 17:20:45 : body: {"rows": 300, "startIndex": 0, "month": "2022/01", "remindStartTime": 1640966400000, "remindEndTime": 1643644800000}
+[32m[INFO]2023.03.01 17:20:46 : 查看回收站下便签列表
+[32m[INFO]2023.03.01 17:20:46 : url: https://note-api.wps.cn/v3/notesvr/user/1298511639/invalid/startindex/0/rows/50/notes
+[32m[INFO]2023.03.01 17:20:47 : 恢复回收站便签
+[32m[INFO]2023.03.01 17:20:47 : url: https://note-api.wps.cn/v3/notesvr/user/1298511639/notes
+[32m[INFO]2023.03.01 17:20:47 : headers: {"Content-Type": "application/json", "x-user-key": "1298511639", "cookie": "wps_sid=V02SJ0aJvoFyTxlJYl36L95naGxkYtE00a5dfa2f004d65b717"}
+[32m[INFO]2023.03.01 17:20:47 : body: {"noteIds": ["3DUkb7CMAGzgofZPBWLpH0JvIVdxc8K2"], "userId": 1298511639}
+[32m[INFO]2023.03.01 17:20:47 : 删除/清空回收站便签
+[32m[INFO]2023.03.01 17:20:47 : url: https://note-api.wps.cn/v3/notesvr/cleanrecyclebin
+[32m[INFO]2023.03.01 17:20:47 : headers: {"Content-Type": "application/json", "x-user-key": "1298511639", "cookie": "wps_sid=V02SJ0aJvoFyTxlJYl36L95naGxkYtE00a5dfa2f004d65b717"}
+[32m[INFO]2023.03.01 17:20:47 : body: {"noteIds": ["-1"]}
+[32m[INFO]2023.03.01 17:20:47 : 【后置】删除便签
+[32m[INFO]2023.03.01 17:20:47 : url: https://note-api.wps.cn/v3/notesvr/delete
+[32m[INFO]2023.03.01 17:20:47 : headers: {"Content-Type": "application/json", "x-user-key": "1298511639", "cookie": "wps_sid=V02SJ0aJvoFyTxlJYl36L95naGxkYtE00a5dfa2f004d65b717"}
+[32m[INFO]2023.03.01 17:20:47 : body: {"noteId": "3DUkb7CMAGzgofZPBWLpH0JvIVdxc8K2"}
